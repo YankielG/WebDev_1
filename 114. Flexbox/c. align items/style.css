@@ -1,0 +1,15 @@
+.box {
+    width: 100px;
+    /*height: 100px;*/
+    background-color: aqua;
+    margin: 5px;
+}
+
+.container {    /*umozlwie ustaiwnie pol w poziomie */
+    display:  flex;
+    flex-direction: row;
+    background-color: red;
+    height: 500px;
+    align-items: stretch;
+    justify-content: center;
+}

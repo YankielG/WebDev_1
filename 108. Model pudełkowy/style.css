@@ -1,0 +1,23 @@
+.box {
+    background-color: green;
+    width: 500px;
+    height: 500px;
+}
+
+.box1 {
+    background-color: aquamarine;
+    width: 500px;
+    height: 500px;
+    margin: 50px;
+    border: 5px solid black;
+    /*border: 5px dotted black;*/
+    /*border: 5px double black;*/
+    padding: 50px;
+    box-sizing: border-box;  /*utzrymuje staly rozmiar zadleklarowanego pola*/
+}
+
+.box2 {
+    background-color: red;
+    height: 500px;
+    width: 70%;
+}

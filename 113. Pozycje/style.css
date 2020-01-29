@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+}
+
+
+.box {
+    width: 100%;
+    height: 300px;
+    background-color: lightgrey;
+    border: 5px solid black;
+}
+
+.relative {
+    position: relative;         /*pozycja relatywna*/
+    top: 30px;                  /*przesuniecie 30  od góry (w dół)*/
+    left: 30px;                 /*przesuniecie 30 od lewej strony*/
+    z-index: -1;                /*glebokosc*/
+}
+
+.fixed {    /*wykorzystywany do footerów wyświetla sę zawsze nawet jak przewijamy */
+    width: 100%;
+    height: 50px;
+    background-color: aquamarine;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+}
+
+.sticky{
+    width: 100%;
+    height: 50px;
+    background-color: aqua;
+    position: sticky;
+    top: 0; /*jak bedziemy ten element przesowac- skrolowac strone- to przyklei sie do top=0 np miejsce na reklame*/
+
+
+}
+
+.absolute {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 100px;
+    right: 100px;
+}

@@ -1,0 +1,36 @@
+
+/**{*/
+/*    border: 3px solid red;*/
+
+/*}*/
+
+/*div {*/
+/*    border: 3px solid red;*/
+/*}*/
+/*
+#jeden {
+    border: 3px solid red;
+}*/
+
+/*
+.dwa {
+    border: 3px solid red;
+}*/
+
+/*
+#duze-pudelko > div {
+    border: 3px solid red;
+}*/
+
+/*#duze-pudelko div {    !*teraz odnosimy sie od szystkich potomnych klasy duze-pudelko*!*/
+/*    border: 3px solid red;*/
+/*}*/
+
+/*.trzy + div {     !*trzy + najblizszy sasiad*!*/
+/*    border: 3px solid red;*/
+/*}*/
+
+.trzy ~ div{     /*trzy + dwaj pozostali sąsiedzi sasiad*/
+    border: 3px solid red;
+}
+

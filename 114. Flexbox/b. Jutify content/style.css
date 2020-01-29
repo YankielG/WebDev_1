@@ -1,0 +1,18 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aquamarine;
+    margin: 5px;
+}
+
+
+.container {        /*umozlwie ustaiwnie pol w poziomie */
+
+    display: flex;
+    flex-direction: row;
+    /*justify-content: flex-start;*/
+    /*justify-content: center;*/
+    /*justify-content: space-between;  !*rozruca pola rowno od lewej do prawej*!*/
+    justify-content: space-evenly; /*rozsypuje w rownych odleglosciach*/
+
+}

@@ -1,0 +1,28 @@
+#conainer {
+    height: 800px;
+    width: 800px;
+    background-color: lightblue;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    height:  80px;
+    width: 80px;
+    background-color: darkblue;
+    margin: 30px;
+}
+
+.big-box {
+    height: 500px;
+    width: 600px;
+    background-color: darkcyan;
+    margin: 30px;
+}
+
+.green-box {
+    height: 80px;
+    width: 80px;
+    background-color: lightblue;
+    margin: 30px;
+}

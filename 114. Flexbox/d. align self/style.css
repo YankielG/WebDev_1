@@ -1,0 +1,19 @@
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 5px;
+}
+
+.container {    /*umozlwie ustaiwnie pol w poziomie */
+    display:  flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 400px;
+    background-color: lightblue;
+
+}
+
+.self {
+    align-self: flex-end;
+}

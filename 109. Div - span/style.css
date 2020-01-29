@@ -1,0 +1,34 @@
+.kontener {
+    width: 200px;
+    margin: auto; /*wysrodkowywuje*/
+}
+.blok1 {
+    background-color: aquamarine;
+    border: 1px solid red;
+
+}
+.blok2 {
+    background-color: aqua;
+    border: 1px solid red;
+
+}
+.blok3 {
+    background-color: rosybrown;
+    border: 1px solid red;
+
+}
+.inline1 {
+    background-color: aquamarine;
+    border: 1px solid red;
+
+}
+.inline2 {
+    background-color: rebeccapurple;
+    border: 1px solid red;
+
+}
+.inline3 {
+    background-color: aquamarine;
+    border: 1px solid red;
+
+}
